@@ -1,0 +1,99 @@
+/* styles.css */
+
+/* Add your custom styles here */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.upload-form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.upload-input {
+  display: none;
+}
+
+.upload-label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.upload-label:hover {
+  background-color: #0056b3;
+}
+
+.image-preview {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-preview img {
+  max-width: 50%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.grayscale-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.grayscale-button:hover {
+  background-color: #0056b3;
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh; /* adjust this to change the size of the canvas container */
+  overflow: hidden; /* this will ensure the image doesn't overflow the container */
+}
+
+#uploaded-image {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* adjust this to change the size of the image container */
+}
+.canvas-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; /* Add this line */
+}
+
+.button-container {
+  margin-top: 20px; /* adjust the value as needed */
+}
